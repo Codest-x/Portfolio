@@ -70,7 +70,7 @@ export default function FormPost(props) {
 
   const propsupload = {
     name: 'image',
-    action: 'https://codestapi.herokuapp.com/assets',
+    action: 'https://codestapi.onrender.com/assets',
     headers: {
       authorization: 'authorization-text'
     },
