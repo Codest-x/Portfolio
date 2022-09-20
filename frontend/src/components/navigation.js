@@ -45,7 +45,7 @@ const Navigation = () => {
           </h1>
           <img
             className="w-7 transition-transform hover:scale-110"
-            src="https://codestapi.herokuapp.com/assets/menu.png"
+            src="https://codestapi.onrender.com/assets/menu.png"
             onClick={handleMenu}
             alt="menu-btn"
           />
@@ -76,7 +76,7 @@ const Navigation = () => {
           ) : null}
           <img
             className="close-btn w-6 invert pt-2 relative hover:scale-110"
-            src="https://codestapi.herokuapp.com/assets/close.png"
+            src="https://codestapi.onrender.com/assets/close.png"
             alt="close-btn"
             onClick={handleMenu}
           />

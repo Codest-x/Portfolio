@@ -81,7 +81,7 @@ const Footer = () => {
               rel="noopener noreferrer"
             >
               <img
-                src={`https://codestapi.herokuapp.com/assets/${icon.image}.png`}
+                src={`https://codestapi.onrender.com/assets/${icon.image}.png`}
                 className="w-10 hover:scale-110 transition-all"
               />
             </a>
