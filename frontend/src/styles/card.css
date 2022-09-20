@@ -1,0 +1,90 @@
+/* Card Posts Style */
+.card {
+  box-shadow: 0 15px 60px rgba(0, 0, 0, 0.5);
+  width: 320px;
+  height: 400px;
+  transition: 0.8s;
+}
+
+.is-loading {
+  background: #eee;
+  background: linear-gradient(110deg, #ececec 8%, #f5f5f5 18%, #ececec 33%);
+  border-radius: 16px;
+  background-size: 200% 100%;
+  -webkit-animation: 1.5s shine linear infinite;
+  animation: 1.5s shine linear infinite;
+}
+
+@keyframes shine {
+  to {
+    background-position-x: -200%;
+  }
+}
+
+.last-item {
+  grid-area: 2;
+}
+
+.more__btn:before {
+  content: '';
+  border-top: 1px solid white;
+  border-right: 1px solid white;
+  position: absolute;
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 50%;
+}
+
+.face {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.face.face2 {
+  transition: 0.5s;
+}
+
+.face.face2 h2 {
+  transition: 0.5s;
+  text-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  z-index: 10;
+}
+.card:hover .face.face2 {
+  height: 60px;
+}
+
+.card:hover .face.face2 .link {
+  display: none;
+}
+
+.card:hover .face.face2 h2 {
+  font-size: 2em;
+}
+
+/* Ability Card Style */
+
+.shadow-around {
+  box-shadow: 0px 0px 20px 0px #0000004a;
+}
+
+/* Card Post Media Queries */
+
+@media (min-width: 1024px) {
+  .card {
+    width: 400px;
+    height: 400px;
+  }
+}
+
+@media (min-width: 1536px) {
+  .card {
+    width: 500px;
+    height: 500px;
+  }
+}

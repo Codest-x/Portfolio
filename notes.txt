@@ -1,0 +1,5 @@
+wordpress
+mongodb
+excel
+
+node version = 16.13.2
