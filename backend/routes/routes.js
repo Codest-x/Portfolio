@@ -134,7 +134,7 @@ router.get("/", async (req, res) => {
 
 router.get("/:id", async (req, res) => {
   try {
-    const posts = await Post.findById(req.arams.id);
+    const posts = await Post.findById(req.params.id);
     res.type("json").send(JSON.stringify(posts, null, 2) + "\n");
   } catch (error) {
     res.json({ error: error.message });
