@@ -26,7 +26,7 @@ export default function About() {
                     className="mx-1 my-2"
                   >
                     <img
-                      src={`https://codestapi.herokuapp.com/assets/${icon.image}.png`}
+                      src={`https://codestapi.onrender.com/assets/${icon.image}.png`}
                       className="w-10 hover:scale-110 transition-all"
                     />
                   </a>
@@ -58,7 +58,7 @@ export default function About() {
                   style={{ color: 'black' }}
                   target="_blank"
                   rel="noopener noreferrer"
-                  href="https://codestapi.herokuapp.com/assets/EstebanEstradaCV.pdf"
+                  href="https://codestapi.onrender.com/assets/EstebanEstradaCV.pdf"
                 >
                   <strong className="font-bold">Aqui!</strong>
                 </a>
@@ -71,7 +71,7 @@ export default function About() {
                 className="form_send bg-[gray] text-white text-xl hover:scale-110 transition-all hover:bg-[white] hover:text-primary xl:text-2xl"
                 target="_blank"
                 rel="noopener noreferrer"
-                href="https://codestapi.herokuapp.com/assets/EstebanEstradaCV.pdf"
+                href="https://codestapi.onrender.com/assets/EstebanEstradaCV.pdf"
               >
                 Hoja de vida
               </a>

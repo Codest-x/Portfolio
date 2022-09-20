@@ -68,7 +68,7 @@ export default function Home() {
                     <a
                       target="_blank"
                       rel="noopener noreferrer"
-                      href="https://codestapi.herokuapp.com/assets/EstebanEstradaCV.pdf"
+                      href="https://codestapi.onrender.com/assets/EstebanEstradaCV.pdf"
                     >
                       {' '}
                       CV

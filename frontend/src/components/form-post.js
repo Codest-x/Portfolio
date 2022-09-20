@@ -120,7 +120,7 @@ export default function FormPost(props) {
             featured: false,
             personal: false,
             date: new Date(Date.now()).toLocaleDateString(),
-            image: 'https://codestapi.herokuapp.com/assets/'
+            image: 'https://codestapi.onrender.com/assets/'
           }}
           onFinish={onFinish}
           onFinishFailed={onFinishFailed}
